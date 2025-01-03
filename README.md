@@ -11,3 +11,4 @@ Random quote generator to showcase the use of frameworks and features with a sim
 - Integration with twitter for quote posting.
 - Integration with clipboard to copy quote to use it somewhere else.
 - Demostration of basic react hooks such as useEffect and useState.
+- Responsive design for landscape and portrait view.

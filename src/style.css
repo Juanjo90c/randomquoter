@@ -107,3 +107,45 @@ body {
     border-radius: 5px;
     border: 0px;
 }
+
+@media (orientation: portrait) {
+    .quote-container {
+        width: 90%;
+        background-color: #FCFCFC;
+        border-radius: 5px;  
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        justify-content: space-between;
+        padding: 2vh 2vw
+    }
+
+    .quote{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        justify-content: center;
+        padding: 0vh 3vw
+    }
+
+    .button-quote {
+        cursor:pointer;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: max(16px, 2vw);
+        color: #FCFCFC;;
+        padding: 2%;
+        width: 30%;
+        border-radius: 5px;
+        border: 0px;
+    }
+
+    .buttons-container{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-evenly;
+        padding-top: 2vh;
+        padding-bottom: 1vh;
+    }
+  }
