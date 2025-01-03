@@ -1,13 +1,12 @@
-<<<<<<< HEAD
-# randomquoter
-Test of a random quote generator
-=======
-# React + Vite
+randomQuoter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+Random quote generator to showcase the use of frameworks and features with a simple application.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
->>>>>>> 6d5b4d7 (Initial commit)
+-Use of react+vite as a javascript framework for developing the page.
+-Styling done on plain css with transitions to give the page update a more smooth view.
+-Fetch usage for getting the quote data remotely.
+-JSON parsing for data generation. 
+-Integration with twitter for quote posting.
+-Integration with clipboard to copy quote to use it somewhere else.
+-Demostration of basic react hooks such as useEffect and useState.
