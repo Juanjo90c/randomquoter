@@ -1,0 +1,109 @@
+body {
+    margin:0;
+    padding:0;
+}
+
+#root {
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.quote-container {
+    width: 40%;
+    background-color: #FCFCFC;
+    border-radius: 5px;  
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: space-between;
+    padding: 2vh 4vw
+}
+
+
+.quote{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fade-in {
+    opacity: 0;    
+  }
+  
+.fade-in-active {
+    transition: opacity 1.5s ease-in-out;
+    opacity: 1;
+}
+
+.fade-in-button {
+    transition: opacity 0.35s ease-in;
+    opacity: 1;
+}
+
+.fade-in-container {
+    transform: scaleY(0);
+    transform-origin: center;
+    overflow: hidden;
+}   
+
+.fade-in-container-active {
+    transition: transform 1s ease-in-out;
+    transform: scaleY(1);
+    transform-origin: center;
+    min-height: 25%;
+}
+
+.quote-quote{
+    width:100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 500;
+    justify-content: left;
+    align-items: center;
+}
+
+.quote-author{
+    width: 100%;
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    box-sizing: border-box;
+    justify-content: right;
+    align-items: center;
+}
+
+.buttons-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+    padding-top: 2vh;
+    padding-bottom: 1vh;
+}
+
+.button-quote {
+    cursor:pointer;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    color: #FCFCFC;;
+    padding: 2%;
+    width: 20%;
+    border-radius: 5px;
+    border: 0px;
+}
